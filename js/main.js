@@ -2,7 +2,7 @@
     (function() {
     window.getUserCredits = function(b) {
         return $.ajax({
-            url: "https://bingo.auth0.com/api/users" + b + "&host=http://trueamerican.github.io",
+            url: "https://bingo.auth0.com/api/users" + b + "&host=http://sterlingbaldwin.com/American-To-Do-List/",
             dataType: "json",
             success: function(c) {
                 return main.o.saveLogin(c);
